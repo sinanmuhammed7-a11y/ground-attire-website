@@ -15,4 +15,13 @@ export type TextSegment = {
       statement: TextSegment[];
       cta: { label: string; href: string };
     };
+    idea: {
+      label: string;
+      heading: [string, string];
+      paragraphs: string[];
+      image: {
+        src: string;
+        alt: string;
+      };
+    };
   };

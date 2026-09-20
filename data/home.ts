@@ -21,6 +21,19 @@ const homeContent: HomeContent = {
     ],
     cta: { label: "Contact Us", href: "/contact" },
   },
+  idea: {
+    label: "The Idea — Manifesto",
+    heading: ["THE GROUND IS", "THE BEGINNING."],
+    paragraphs: [
+      "Architecture begins with where it stands.",
+      "The light, the climate, the terrain, the vegetation, the people and the memory of a place all become part of the design.",
+      "At Ground Attire, we see architecture as an attire for the ground — carefully shaped, tailored to its surroundings and designed to reveal what already exists.",
+    ],
+    image: {
+      src: "/images/home/idea.png",
+      alt: "Landscape and terrain at the scale of architecture",
+    },
+  },
 };
 
 export default homeContent;

@@ -1,0 +1,10 @@
+---
+description: Data layer and types
+globs: lib/**,types/**,data/**
+alwaysApply: false
+---
+- Every /lib data function is async and returns types from /types.
+- One file per content type in /types (e.g. types/project.ts).
+- Never change a type's shape (field names, slug as plain string) unless asked.
+- Sorting, filtering, and "featured" logic lives in /lib, not in pages.
+- /data is temporary fake content and will be deleted.

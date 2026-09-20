@@ -1,0 +1,7 @@
+---
+description: Core project rules
+alwaysApply: true
+---
+- Next.js App Router, TypeScript, Tailwind. Use `@/*` imports. Never use `any`.
+- Pages/components never import from /data or Sanity. Fetch only via async functions in /lib.
+- No new dependencies. Make small changes only.

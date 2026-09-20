@@ -1,0 +1,9 @@
+---
+description: Sanity CMS integration
+alwaysApply: false
+---
+- Only /lib and /sanity may import the Sanity client.
+- GROQ queries always alias slug: `"slug": slug.current`, so the returned shape matches /types.
+- Use `next/image` with Sanity image URLs via @sanity/image-url.
+- Keep the Sanity token and project ID in .env.local; never hardcode or commit them.
+- Use ISR (`revalidate`) or on-demand revalidation instead of fetching on every request.

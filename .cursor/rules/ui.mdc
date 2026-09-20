@@ -1,0 +1,11 @@
+---
+description: UI, styling, and accessibility
+globs: app/**/*.tsx,components/**/*.tsx
+alwaysApply: false
+---
+- Tailwind only: no inline styles, no new CSS files.
+- Mobile-first: base styles, then sm:/md:/lg:.
+- Reusable UI goes in /components, one component per file, PascalCase names.
+- Use next/image with alt text, next/link for internal links.
+- Use semantic HTML (main, section, nav, header, footer) and one h1 per page.
+- Buttons and links must be keyboard accessible with visible focus states.

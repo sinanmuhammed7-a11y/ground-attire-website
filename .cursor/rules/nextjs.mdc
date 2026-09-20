@@ -1,0 +1,11 @@
+---
+description: Next.js App Router conventions
+globs: app/**/*.tsx
+alwaysApply: false
+---
+- Server Components by default; "use client" only for state, effects, or browser events.
+- Dynamic routes: type `params` as `Promise<{ slug: string }>` and await it.
+- Use notFound() when a record is missing.
+- Use generateStaticParams for CMS-backed dynamic routes.
+- Add generateMetadata (title, description) to every page.
+- Add loading.tsx / error.tsx only when asked.

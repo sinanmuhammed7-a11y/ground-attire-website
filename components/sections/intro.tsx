@@ -24,7 +24,7 @@ export function Intro() {
             )}
           </h1>
 
-          <Button asChild size="lg" className="mt-10 md:mt-12">
+          <Button size="lg" className="mt-10 md:mt-12">
             <Link href={intro.cta.href}>{intro.cta.label}</Link>
           </Button>
 

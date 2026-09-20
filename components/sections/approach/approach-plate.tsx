@@ -14,7 +14,7 @@ type ApproachPlateProps = {
 
 export function ApproachPlate({ steps, active, reduceMotion }: ApproachPlateProps) {
   return (
-    <div className="border-border relative aspect-[4/5] overflow-hidden border bg-background">
+    <div className="border-border relative aspect-4/5 overflow-hidden border bg-background">
       {steps.map((step, index) => (
         <div
           key={step.verb}

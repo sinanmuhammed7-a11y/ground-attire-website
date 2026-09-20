@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Newsreader } from "next/font/google";
 
+import { Header } from "@/components/layout/header";
 import { siteConfig } from "@/config/site";
 
 import "./globals.css";
@@ -85,7 +86,7 @@ export default function RootLayout({
           Skip to content
         </a>
 
-        {/* <Header />  → components/layout/header.tsx (next step) */}
+        <Header />
 
         <main id="main" className="flex-1">
           {children}

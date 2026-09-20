@@ -8,10 +8,10 @@ export const siteConfig = {
     url: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, ""),
     locale: "en_US",
     founded: 2018,
-    offices: ["Zurich", "Santa Fe"],
     nav: [
-      { label: "Projects", href: "/projects" },
       { label: "Studio", href: "/studio" },
+      { label: "Projects", href: "/projects" },
+      { label:"Services", href: "/services" },
       { label: "Journal", href: "/journal" },
       { label: "Contact", href: "/contact" },
     ],
